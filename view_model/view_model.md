@@ -1,6 +1,6 @@
 # ViewModel
 - View가 화면을 그리는것 외에 복잡한 로직을 수행하지 않도록 로직을 담당하는 클래스
-- View와 Model은 모델 사이의 중개자 역할
+- UI(View) 와 Data(ViewModel) 사이의 중개자 역할
 - View는 ViewModel의 상태를 구독(Observe)하고, ViewModel은 데이터가 변경되면 View에게 알립니다
 
 ## 장점
